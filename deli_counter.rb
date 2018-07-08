@@ -3,7 +3,7 @@ katz_deli=[]
 def line(array)
   if array.empty?
 	  puts "The line is currently empty."
-  elsif
+  else
     new_line = "The current line is:"
 	  new_line << array.each_with_index(1) {|name,index| puts "#{index}. #{name}"}
   end
