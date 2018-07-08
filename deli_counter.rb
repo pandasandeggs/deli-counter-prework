@@ -1,13 +1,13 @@
 katz_deli=["Ada", "Grace", "Kent"]
 
 def line(array)
-  current_line = []
+  new_line = "The current line is:"
   if array.empty?
 	  puts "The line is currently empty."
   else
-	  current_line = array.each_with_index {|name,index| puts "The current line is: #{index+1}. #{name}"}
+	  new_line.push(array.each_with_index {|name,index| puts "The current line is: #{index+1}. #{name}"})
 	  array.shift
-    puts current_line
+    puts new_line
 end
 
 def take_a_number(array,name)
