@@ -6,7 +6,6 @@ def line(array)
   elsif
     new_line = ["The current line is:"]
 	  new_line << array.each_with_index(1) {|name,index| puts "#{index}. #{name}"}
-	  array.shift
   end
   puts new_line
 end
