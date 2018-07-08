@@ -19,6 +19,5 @@ def now_serving(array)
   if array.empty?
     puts "There is nobody waiting to be served!"
   else
-    puts "#{array.shift} is now being served."
-  end 
+    puts "Currently serving #{array.shift}."
 end
