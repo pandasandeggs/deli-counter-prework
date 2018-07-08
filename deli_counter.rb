@@ -5,7 +5,7 @@ def line(array)
 	  puts "The line is currently empty."
   else
     new_line = "The current line is:"
-	  array.each_with_index(1) {|name,index| new_line << "#{index}. #{name}"}
+	  array.each.with_index(1) {|name,index| new_line << "#{index}. #{name}"}
   end
 end
 
