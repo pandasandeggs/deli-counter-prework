@@ -7,8 +7,8 @@ def line(array)
   else
 	  new_line << array.each_with_index {|name,index| puts "#{index+1}. #{name}"})
 	  array.shift
-    puts new_line
   end
+  puts new_line
 end
 
 def take_a_number(array,name)
