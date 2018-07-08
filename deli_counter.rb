@@ -17,6 +17,6 @@ end
 
 def now_serving(array)
   if array.empty?
-    
-end 
+    puts 
+  end 
 end
