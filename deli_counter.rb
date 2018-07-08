@@ -16,7 +16,7 @@ def take_a_number(array,name)
     puts "The line is currently empty."
   else
     new_line.push(name)
-	  array.each_with_index {|name| puts "The line is currently: #{index+1}. #{name}"}
+	  array.each.with_index(1) {|name,index| puts "Welcome #{name}. You are number #{index} in line."}
 end
 
 # def now_serving(array)
