@@ -7,7 +7,6 @@ def line(array)
     new_line = "The current line is:"
 	  new_line << array.each_with_index(1) {|name,index| puts "#{index}. #{name}"}
   end
-  puts new_line
 end
 
 # def take_a_number(array,name)
