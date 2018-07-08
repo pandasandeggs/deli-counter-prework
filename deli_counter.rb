@@ -1,4 +1,4 @@
-katz_deli=[]
+katz_deli=["Ada", "Grace", "Kent"]
 
 def line(array)
   if array.empty?
