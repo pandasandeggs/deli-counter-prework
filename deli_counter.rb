@@ -4,7 +4,7 @@ def line(array)
   if array.empty?
 	  puts "The line is currently empty."
   elsif
-    new_line = ["The current line is:"]
+    new_line = "The current line is:"
 	  new_line << array.each_with_index(1) {|name,index| puts "#{index}. #{name}"}
   end
   puts new_line
