@@ -11,7 +11,6 @@ def line(array)
 end
 
 def take_a_number(array,name)
-  new_line = []
-  new_line << array.push(name)
+  array << name
 	array.each.with_index(1) {|name,index| puts "Welcome, #{name}. You are number #{index} in line."}
 end
